@@ -1,0 +1,41 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: cursive; */
+    font-family: 'Fira Sans', sans-serif;
+   
+  }
+   
+  body {
+    background: #ac1818;
+    overflow: auto;
+    /* background-image: url("bgqw.jpg"); */
+  }
+   
+  h1{
+     text-align: center;
+     /* color: blue; */
+     margin: 5%;
+     font-size: 3rem;
+     
+     /* text-decoration: underline; */
+  }
+   
+  ul {
+    text-align: left;
+    padding-left: 10%;
+    padding: 7%;
+    font-size: 2rem;
+    list-style: circle;
+    
+  }
+   
+  li:hover{
+    color:red;
+    margin: 4%;
+    transition: 1.5s ease;
+    cursor: pointer;
+  }
+  
